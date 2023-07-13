@@ -21,8 +21,8 @@ public class DatosDemo {
 	public void init() {
 		System.out.println("Prueba CRUD libro");
 		
-		/*Libro l = new Libro();
-		//l.setId("a1");
+		Libro l = new Libro();
+		l.setId("aaaa1");
 		l.setNombre("Historia");
 		l.setAutor("Jonnathan");
 		l.setPais("Ecuador");
@@ -33,7 +33,7 @@ public class DatosDemo {
 		//Listamos todos los clientes
 		for (int i = 0; i < listaClientes.size(); i++) {
 		     System.out.println("CLIENTE "+(i+1)+" id "+listaClientes.get(i).getId()+" NOMBRE "+listaClientes.get(i).getNombre()+ " AUTOR "+listaClientes.get(i).getAutor()); 
-		}*/
+		}
 	}
 	
 	

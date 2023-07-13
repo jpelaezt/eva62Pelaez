@@ -22,7 +22,7 @@ public class LibroDAO {
 		em.merge(libro);
 	}
 	
-	public Libro read(long id ) {
+	public Libro read(String id ) {
 		Libro l = em.find(Libro.class, id);
 		return l;
 	}
